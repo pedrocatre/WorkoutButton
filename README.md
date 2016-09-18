@@ -2,12 +2,7 @@
 
 An app for creating your own exercise recipes.
 
-<img src="https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/side_menu2.png" width="425">
-<img src="https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/training.png" width="425">
-<img src="https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/create_workout.png" width="425">
-<img src="https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/workouts_list.png" width="425">
-<img src="https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/workout_vela.png" width="425">
-<img src="https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/workout_history.png" width="425">
+![Workout Button](https://github.com/pedrocatre/external-link-tester/raw/master/screenshots/workout_button.gif)
 
 ## Running the app
 
@@ -116,6 +111,15 @@ meteor add houston:admin
 
 
 meteor add crosswalk
+
+## Screenshots
+
+<img src="https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/side_menu2.png" width="425">
+<img src="https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/training.png" width="425">
+<img src="https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/create_workout.png" width="425">
+<img src="https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/workouts_list.png" width="425">
+<img src="https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/workout_vela.png" width="425">
+<img src="https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/workout_history.png" width="425">
 
 ## License
 
