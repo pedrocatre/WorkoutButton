@@ -3,7 +3,8 @@
 An app for creating your own exercise recipes.
 
 ![Workout Button](https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/workout_button.gif)
-![Workout Button](https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/create_workout.gif)
+
+![Workout Button](https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/create_workout.mp4)
 
 ## Running the app
 
