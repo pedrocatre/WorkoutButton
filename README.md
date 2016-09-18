@@ -8,7 +8,7 @@ First you need to create a file: server/credentials-config.js
 
 With the following:
 
-´´´js
+```javascript
 facebookConfig = {
     prod: {
         appId: 'xxxxx',
@@ -20,7 +20,7 @@ facebookConfig = {
         secret: 'xxxx'
     }
 };
-´´´
+```
 
 To get an app id and secret you need to create an app in your facebook developer account. You can follow the steps
 described in this blog post: (http://bulenttastan.net/login-with-facebook-using-meteor-js/)[http://bulenttastan.net/login-with-facebook-using-meteor-js/].
@@ -109,3 +109,7 @@ meteor add houston:admin
 
 
 meteor add crosswalk
+
+## License
+
+The code in this repository can be used under the MIT License.
