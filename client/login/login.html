@@ -1,0 +1,29 @@
+<template name="login">
+    {{> headerButtonLeft}}
+
+    {{#contentFor "headerTitle"}}
+        <h1 class="title">Workout Button</h1>
+    {{/contentFor}}
+
+        {{#ionView}}
+            {{#ionContent}}
+
+                {{#if currentUser}}
+                    Welcome
+                {{else}}
+                    <div class="login-container">
+                        <button id="facebook-login" class="button button-positive">
+                            Sign in with Facebook
+                        </button>
+
+                        <p class="login-terms-and-conditions">Always consult with your doctor about your athletic behavior. This app does not substitute your doctor, nor is responsible for your behaviour.</p>
+                    </div>
+                    {{#if userAccountCreationEnabled}}
+                        {{> loginButtons}}
+                    {{/if}}
+                {{/if}}
+
+            {{/ionContent}}
+        {{/ionView}}
+
+</template>

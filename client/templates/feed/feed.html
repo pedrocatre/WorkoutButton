@@ -1,0 +1,25 @@
+<template name="feed">
+    <header>
+        <h1>Feed</h1>
+        <a href="{{pathFor 'training'}}">Training</a>
+        <form class="new-feed-msg">
+            <input type="text" name="text" placeholder="What is on your mind?" />
+        </form>
+    </header>
+
+    <ul>
+        {{#each feedMessages}}
+            {{> feedMsg}}
+        {{/each}}
+    </ul>
+</template>
+
+
+<template name="feedMsg">
+    <li class="{{#if checked}}checked{{/if}}">
+
+        <input type="checkbox" checked="{{checked}}" class="toggle-checked" />
+
+        <span class="text">{{text}}</span>
+    </li>
+</template>

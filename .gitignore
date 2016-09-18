@@ -1,0 +1,17 @@
+node_modules
+.tmp
+.sass-cache
+.idea/
+*sublime*
+*.DS_Store
+npm-debug.log
+*.iml
+server/credentials-config.js
+
+#meteoric:ionic-sass
+#meteoric:ionicons-sass
+#meteoric:ionic
+#meteoric:autoform-ionic
+#useraccounts:ionic
+#aldeed:autoform
+#meteor add aldeed:collection2

@@ -1,0 +1,56 @@
+<template name="workoutPage">
+
+    {{#contentFor "headerButtonLeft"}}
+
+        {{>ionNavBackButton path="workoutsList"}}
+
+    {{/contentFor}}
+
+    {{#contentFor "headerTitle"}}
+        <h1 class="title">{{ name }}</h1>
+    {{/contentFor}}
+
+    {{#if isWorkoutOwner}}
+        {{#contentFor "headerButtonRight"}}
+            <button class="button button-clear" data-ion-modal="_workoutsEdit" data-id="{{_id}}">Edit</button>
+        {{/contentFor}}
+    {{/if}}
+
+
+
+    {{#ionView}}
+
+        {{ > countDownTimer }}
+
+        {{#ionContent}}
+
+
+
+
+
+        <span class="exercises-list">
+            {{#ionList}}
+
+                {{#each rounds}}
+                    {{> roundItem}}
+                {{/each}}
+
+            {{/ionList}}
+
+        </span>
+
+        {{/ionContent}}
+
+        {{#ionFooterBar class="bar-dark workout-bar-footer"}}
+            <button class="button button-positive full-width-btn start-workout-btn">
+                Start workout
+            </button>
+            <button class="button button-positive full-width-btn next-exercise-btn">
+                Next exercise
+            </button>
+        {{/ionFooterBar}}
+    {{/ionView}}
+
+
+
+</template>

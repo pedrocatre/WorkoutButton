@@ -1,0 +1,28 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-platform
+iron:router
+jquery
+accounts-facebook
+service-configuration
+sacha:spin
+meteoric:ionicons-sass
+meteoric:ionic-sass
+meteoric:autoform-ionic
+fourseven:scss
+momentjs:moment
+aldeed:autoform
+msavin:mongol
+aldeed:simple-schema@=1.1.0
+aldeed:collection2@=2.3.1
+ground:db
+accounts-ui
+accounts-password
+meteoric:ionic
+appcache
+meteorhacks:kadira
+houston:admin

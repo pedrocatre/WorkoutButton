@@ -1,0 +1,31 @@
+<template name="sideMenu">
+    {{#ionSideMenu}}
+        <div class="bar bar-header bar-dark">
+            <h1 class="title">{{currentUser.profile.name}}</h1>
+        </div>
+        <div class="content has-header">
+            <div class="list">
+                <div class="item item-avatar" data-ion-menu-close>
+                    <img src="http://graph.facebook.com/{{ facebookId }}/picture/?type=square">
+                    <span class="connection-status {{#if isOnline}} connection-status-online {{else}} connection-status-offline {{/if}}">
+                        {{#if isOnline}}
+                            Online
+                        {{else}}
+                            Offline
+                        {{/if}}
+                    </span>
+
+                </div>
+                <div class="item item-icon-right training-link" data-ion-menu-close>
+                    Training {{> ionIcon icon="android-walk"}}
+                </div>
+                <div class="item item-icon-right workout-history-link" data-ion-menu-close>
+                    Workout history {{> ionIcon icon="ios-box"}}
+                </div>
+                <div id="logout" class="item item-icon-right" data-ion-menu-close>
+                    Logout {{> ionIcon icon="ios-locked"}}
+                </div>
+            </div>
+        </div>
+    {{/ionSideMenu}}
+</template>

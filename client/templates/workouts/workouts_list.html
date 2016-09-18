@@ -1,0 +1,24 @@
+<template name="workoutsList">
+    {{#contentFor "headerButtonLeft"}}
+        {{>ionNavBackButton path="training"}}
+    {{/contentFor}}
+
+    {{#contentFor "headerTitle"}}
+        <h1 class="title">Workouts</h1>
+    {{/contentFor}}
+
+    {{#contentFor "headerButtonRight"}}
+        <button class="button button-clear" data-ion-modal="_workoutsNew">{{> ionIcon icon="ios-plus-empty"}}</button>
+    {{/contentFor}}
+
+    {{#ionView}}
+        {{#ionContent}}
+            {{#ionList}}
+                {{#each workouts}}
+                    {{> workoutItem}}
+                {{/each}}
+            {{/ionList}}
+        {{/ionContent}}
+    {{/ionView}}
+
+</template>

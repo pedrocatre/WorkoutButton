@@ -1,0 +1,18 @@
+<template name="exerciseSessionsList">
+    {{> headerButtonLeft}}
+
+    {{#contentFor "headerTitle"}}
+        <h1 class="title">Exercise History</h1>
+    {{/contentFor}}
+
+    {{#ionView}}
+        {{#ionContent}}
+            {{#ionList}}
+                {{#each exerciseSessions}}
+                    {{> exerciseSessionItem}}
+                {{/each}}
+            {{/ionList}}
+        {{/ionContent}}
+    {{/ionView}}
+
+</template>

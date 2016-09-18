@@ -1,0 +1,26 @@
+<template name="training">
+    {{> headerButtonLeft}}
+
+    {{#contentFor "headerTitle"}}
+        <h1 class="title">Training</h1>
+    {{/contentFor}}
+
+    {{#ionView}}
+        {{#ionContent}}
+
+            <div class="list card">
+                <a class="item item-icon-right positive" href="{{pathFor 'workoutsList'}}">
+                    <h2>Workouts</h2>
+                    {{> ionIcon icon="ios-arrow-right"}}
+                </a>
+
+                <a class="item item-icon-right positive" href="{{pathFor 'exercisesList'}}">
+                    <h2>Exercises</h2>
+                    {{> ionIcon icon="ios-arrow-right"}}
+                </a>
+
+            </div>
+        {{/ionContent}}
+    {{/ionView}}
+
+</template>

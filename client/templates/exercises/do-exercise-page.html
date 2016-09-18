@@ -1,0 +1,29 @@
+<template name="doExercisePage">
+    {{#contentFor "headerButtonLeft"}}
+        {{>ionNavBackButton path="exercisesList"}}
+    {{/contentFor}}
+
+    {{#contentFor "headerTitle"}}
+        <h1 class="title">{{name}}</h1>
+    {{/contentFor}}
+
+    {{#ionView}}
+        {{#ionContent}}
+
+            <div class="timer-bar">
+                 <h1 class="timer">00:00:00</h1>
+            </div>
+
+
+            <span class="do-exercise-form-container">
+                {{> quickForm collection="ExerciseSessions" id="new-exercise-session-form" type="insert" buttonContent="Start exercise" fields="repetitions"}}
+            </span>
+
+            <button class="button button-positive button-block end-exercise-btn">
+                End Exercise
+            </button>
+
+        {{/ionContent}}
+    {{/ionView}}
+
+</template>

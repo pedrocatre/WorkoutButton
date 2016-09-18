@@ -1,0 +1,39 @@
+body {
+
+  .timer {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+  }
+
+  .timer-bar {
+    height: 99px;
+    background-color: #444444;
+  }
+
+  .has-subheader {
+    top: 143px;
+  }
+
+  button.next-exercise-btn {
+    display: none;
+  }
+
+  .workout-bar-footer {
+    height: 78px;
+  }
+
+  .has-footer {
+    bottom: 78px;
+  }
+
+  .next-exercise-btn {
+    font-size: 23px;
+    text-transform: uppercase;
+  }
+
+  .start-workout-btn {
+    font-size: 23px;
+    text-transform: uppercase;
+  }
+}

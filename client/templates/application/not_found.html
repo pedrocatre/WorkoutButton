@@ -1,0 +1,20 @@
+<template name="notFound">
+    {{> headerButtonLeft}}
+
+    {{#contentFor "headerTitle"}}
+        <h1 class="title">404</h1>
+    {{/contentFor}}
+
+    {{#ionView}}
+        {{#ionContent}}
+            <p>Sorry, we couldn't find this page</p>
+            <div class="login-container">
+                <button class="button button-positive back-to-training-btn">
+                    Go back to training
+                </button>
+            </div>
+
+        {{/ionContent}}
+    {{/ionView}}
+
+</template>

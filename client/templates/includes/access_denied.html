@@ -1,0 +1,19 @@
+<template name="accessDenied">
+
+    {{#contentFor "headerTitle"}}
+        <h1 class="title">Access Denied</h1>
+    {{/contentFor}}
+
+    {{#ionView}}
+        {{#ionContent}}
+            <p>You can't get here! Please log in.</p>
+            <div class="login-container">
+                <button class="button button-positive got-to-login-btn">
+                    Login
+                </button>
+            </div>
+
+        {{/ionContent}}
+    {{/ionView}}
+
+</template>

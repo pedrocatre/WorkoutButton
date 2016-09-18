@@ -1,0 +1,13 @@
+<template name="_workoutHistoryTabs">
+    {{#if isAndroid}}
+        {{#ionTabs style="android"}}
+            {{> ionTab title="Workouts" path="workoutSessionsList" icon="ios-box"}}
+            {{> ionTab title="Exercises" path="exerciseSessionsList" icon="android-time"}}
+        {{/ionTabs}}
+    {{else}}
+        {{#ionTabs style="ios"}}
+            {{> ionTab title="Workout" path="workoutSessionsList" iconOff="ios-box-outline" iconOn="ios-box" class="tab-item-positive"}}
+            {{> ionTab title="Exercises" path="exerciseSessionsList" iconOff="ios-clock-outline" iconOn="ios-clock" class="tab-item-positive"}}
+        {{/ionTabs}}
+    {{/if}}
+</template>

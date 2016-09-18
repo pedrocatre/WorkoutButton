@@ -1,0 +1,29 @@
+<template name="layout">
+    {{#ionBody}}
+
+        {{#ionSideMenuContainer}}
+
+            {{#ionSideMenus}}
+
+                {{> sideMenu}}
+
+            {{/ionSideMenus}}
+
+            {{#ionSideMenuContent}}
+
+                {{> ionNavBar class="bar-positive"}}
+
+                {{#ionNavView}}
+                    {{> yield}}
+                    {{#if pathIsLayoutHistory}}
+                        {{> _workoutHistoryTabs}}
+                    {{/if}}
+
+                {{/ionNavView}}
+
+            {{/ionSideMenuContent}}
+
+        {{/ionSideMenuContainer}}
+
+    {{/ionBody}}
+</template>
