@@ -2,6 +2,9 @@
 
 An app for creating your own exercise recipes.
 
+![workout list](https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/workouts_list.png)
+![workout](https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/workout_vela.png)
+
 ## Running the app
 
 First you need to create a file: server/credentials-config.js
