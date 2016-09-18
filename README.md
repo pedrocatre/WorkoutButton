@@ -1,8 +1,12 @@
 # WorkoutButton
 
+## Demo doing a workout
+
 An app for creating your own exercise recipes.
 
 ![Workout Button](https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/workout_button.gif)
+
+## Demo creating workout, using it & editing it
 
 ![Workout Button](https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/create_workout.gif)
 
