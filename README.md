@@ -2,7 +2,7 @@
 
 An app for creating your own exercise recipes.
 
-<kbd><img src="https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/side_menu.png" width="425"></kbd>
+<kbd><img src="https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/side_menu.png" width="400"></kbd>
 <img src="https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/training.png" width="425">
 <img src="https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/create_workout.png" width="425">
 <img src="https://github.com/pedrocatre/WorkoutButton/raw/master/WorkoutButton-screenshots/workouts_list.png" width="425">
